@@ -22,7 +22,7 @@ const hiddenLinks = (() => {
 })();
 
 // eslint-disable-next-line max-len
-const HOMEPAGE_PLATE_BACKGROUND_DEFAULT = 'radial-gradient(103.03% 103.03% at 0% 0%, rgba(183, 148, 244, 0.8) 0%, rgba(0, 163, 196, 0.8) 100%), var(--chakra-colors-blue-400)';
+const HOMEPAGE_PLATE_BACKGROUND_DEFAULT = 'radial-gradient(103.03% 103.03% at 0% 0%, #E93E3A 0%, #FD9E01 100%)';
 
 const UI = Object.freeze({
   sidebar: {

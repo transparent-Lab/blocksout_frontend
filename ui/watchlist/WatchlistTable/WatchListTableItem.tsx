@@ -97,7 +97,7 @@ const WatchlistTableItem = ({ item, isLoading, onEditClick, onDeleteClick }: Pro
       <Td>
         <Skeleton isLoaded={ !isLoading } display="inline-block">
           <Switch
-            colorScheme="blue"
+            colorScheme="bitsat"
             size="md"
             isChecked={ notificationEnabled }
             onChange={ onSwitch }

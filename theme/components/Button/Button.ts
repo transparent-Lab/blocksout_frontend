@@ -48,8 +48,11 @@ const variantOutline = defineStyle((props) => {
   const isGrayTheme = c === 'gray' || c === 'gray-dark';
   const color = isGrayTheme ? mode('blackAlpha.800', 'whiteAlpha.800')(props) : mode(`${ c }.600`, `${ c }.300`)(props);
   const borderColor = isGrayTheme ? mode('gray.200', 'gray.600')(props) : mode(`${ c }.600`, `${ c }.300`)(props);
-  const activeBg = isGrayTheme ? mode('blue.50', 'gray.600')(props) : mode(`${ c }.50`, 'gray.600')(props);
+  const activeBg = isGrayTheme ? mode('bitsat.50', 'gray.600')(props) : mode(`${ c }.50`, 'gray.600')(props);
   const activeColor = (() => {
+    if (c === 'bitsat') {
+      return mode('bitsat.600', 'gray.50')(props);
+    }
     if (c === 'gray') {
       return mode('blue.600', 'gray.50')(props);
     }
@@ -59,7 +62,7 @@ const variantOutline = defineStyle((props) => {
     if (c === 'blue') {
       return mode('blue.600', 'gray.50')(props);
     }
-    return 'blue.600';
+    return 'bitsat.600';
   })();
 
   return {
@@ -216,7 +219,7 @@ const Button = defineStyleConfig({
   defaultProps: {
     variant: 'solid',
     size: 'md',
-    colorScheme: 'blue',
+    colorScheme: 'bitsat',
   },
 });
 

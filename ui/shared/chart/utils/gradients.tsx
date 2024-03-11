@@ -1,5 +1,15 @@
 import React from 'react';
 
+export const BitsatLineGradient = {
+  id: 'bitsat-line-gradient',
+  defs: () => (
+    <linearGradient id="bitsat-line-gradient">
+      <stop offset="0%" stopColor="#E93E3A"/>
+      <stop offset="100%" stopColor="#FD9E01"/>
+    </linearGradient>
+  ),
+};
+
 export const BlueLineGradient = {
   id: 'blue-line-gradient',
   defs: () => (
