@@ -1,22 +1,14 @@
 [
 	{
-		"title": "Ethereum",
-		"url": "https://eth.blockscout.com/",
+		"title": "Bitsat",
+		"url": "https://testnet.bitsat.ai/",
 		"group": "Mainnets",
-		"icon": "https://example.com/logo.svg"
+		"icon": "https://raw.githubusercontent.com/transparent-Lab/assets/main/logo-simple.svg"
 	},
 	{
-		"title": "Goerli",
-		"url": "https://eth-goerli.blockscout.com/",
+		"title": "bitsat Test",
+		"url": "https://testnet.bitsat.ai/",
 		"group": "Testnets",
-		"isActive": true,
-		"icon": "https://example.com/logo.svg",
-		"invertIconInDarkMode": true
-	},
-	{
-		"title": "POA Sokol",
-		"url": "https://blockscout.com/poa/sokol",
-		"group": "Other",
-		"icon": "https://example.com/logo.svg"
+		"icon": "https://raw.githubusercontent.com/transparent-Lab/assets/main/logo-simple.svg"
 	}
 ]
