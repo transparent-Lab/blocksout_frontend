@@ -20,5 +20,5 @@ dotenv \
   -e .env.local \
   -e .env.development \
   -e .env \
-  -- bash -c './deploy/scripts/make_envs_script.sh && next dev -- -p 4000' |
+  -- bash -c './deploy/scripts/make_envs_script.sh && next dev -- -p $NEXT_PUBLIC_APP_PORT' |
 pino-pretty
