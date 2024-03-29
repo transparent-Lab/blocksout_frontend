@@ -1,0 +1,8 @@
+window.__envs = {
+NEXT_PUBLIC_GIT_COMMIT_SHA: "14411cfe",
+NEXT_PUBLIC_GIT_TAG: "bitsat",
+}
+window.__envs = {
+NEXT_PUBLIC_GIT_COMMIT_SHA: "14411cfe",
+NEXT_PUBLIC_GIT_TAG: "bitsat",
+}

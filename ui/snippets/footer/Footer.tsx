@@ -1,5 +1,5 @@
 import type { GridProps } from '@chakra-ui/react';
-import { Box, Grid, Flex, Text, Link, VStack, Skeleton } from '@chakra-ui/react';
+import { Box, Grid, Flex, /*Text,*/ Link, VStack, Skeleton } from '@chakra-ui/react';
 import { useQuery } from '@tanstack/react-query';
 import React from 'react';
 
@@ -118,8 +118,8 @@ const Footer = () => {
   const renderProjectInfo = React.useCallback((gridArea?: GridProps['gridArea']) => {
     return (
       <Box gridArea={ gridArea }>
-        <Link fontSize="xs" href="https://www.blockscout.com">blockscout.com</Link>
-        <Text mt={ 3 } fontSize="xs">
+        <Link fontSize="xs" href="https://www.bitsat.com" target="_blank">bitsat.com</Link>
+        { /*<Text mt={ 3 } fontSize="xs">
           Blockscout is a tool for inspecting and analyzing EVM based blockchains. Blockchain explorer for Ethereum Networks.
         </Text>
         <VStack spacing={ 1 } mt={ 6 } alignItems="start">
@@ -133,10 +133,10 @@ const Footer = () => {
               Frontend: { frontendLink }
             </Text>
           ) }
-        </VStack>
+        </VStack>*/ }
       </Box>
     );
-  }, [ apiVersionUrl, backendVersionData?.backend_version, frontendLink ]);
+  }, [ /*apiVersionUrl, backendVersionData?.backend_version, frontendLink*/ ]);
 
   const containerProps: GridProps = {
     as: 'footer',
@@ -200,7 +200,7 @@ const Footer = () => {
       { renderNetworkInfo({ lg: 'network' }) }
       { renderProjectInfo({ lg: 'info' }) }
 
-      <Grid
+      { /*<Grid
         gridArea={{ lg: 'links-bottom' }}
         gap={ 1 }
         gridTemplateColumns={{
@@ -219,7 +219,7 @@ const Footer = () => {
         mt={{ base: 8, lg: 0 }}
       >
         { BLOCKSCOUT_LINKS.map(link => <FooterLinkItem { ...link } key={ link.text }/>) }
-      </Grid>
+      </Grid>*/ }
     </Grid>
   );
 };
