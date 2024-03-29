@@ -118,7 +118,7 @@ const Footer = () => {
   const renderProjectInfo = React.useCallback((gridArea?: GridProps['gridArea']) => {
     return (
       <Box gridArea={ gridArea }>
-        <Link fontSize="xs" href="https://www.bitsat.com" target="_blank">bitsat.com</Link>
+        { /*<Link fontSize="xs" href="https://www.bitsat.com" target="_blank">bitsat.com</Link>*/ }
         { /*<Text mt={ 3 } fontSize="xs">
           Blockscout is a tool for inspecting and analyzing EVM based blockchains. Blockchain explorer for Ethereum Networks.
         </Text>
