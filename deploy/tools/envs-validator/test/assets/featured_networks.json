@@ -3,12 +3,12 @@
 		"title": "Bitsat",
 		"url": "https://testnet.bitsat.ai/",
 		"group": "Mainnets",
-		"icon": "https://raw.githubusercontent.com/transparent-Lab/assets/main/logo-simple.svg"
+		"icon": "https://raw.githubusercontent.com/bitsatai/assets/main/logo-simple.svg"
 	},
 	{
 		"title": "Bitsat Test",
 		"url": "https://testnet.bitsat.ai/",
 		"group": "Testnets",
-		"icon": "https://raw.githubusercontent.com/transparent-Lab/assets/main/logo-simple.svg"
+		"icon": "https://raw.githubusercontent.com/bitsatai/assets/main/logo-simple.svg"
 	}
 ]
